@@ -29,5 +29,13 @@ col1, col2 = st.columns(2)
 
 st.write("\n\n\nData Science and AI Training 2025")
 st.write("Karume Institute of Science and Technology, Zanzibar")
-st.image("WHITE-EU.png", width = 300)
-st.image("WHITE-EU.png", width = 300,align = left)
+#st.image("WHITE-EU.png", width = 300)
+#st.image("WHITE-EU.png", width = 300,align = 'left')
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.image("WHITE-EU.png", width=300)
+
+with col2:
+    st.image("WHITE-EU.png", width=300)
+
