@@ -34,7 +34,7 @@ st.write("Karume Institute of Science and Technology, Zanzibar")
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.image("WHITE-EU.png", width=300)
+    st.image("KIST_Logo.jpg", width=300)
 
 with col2:
     st.image("WHITE-EU.png", width=300)
